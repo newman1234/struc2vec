@@ -1,4 +1,5 @@
 # struc2vec
+from https://github.com/leoribeiro/struc2vec
 
 This repository provides a reference implementation of *struc2vec* as described in the paper:<br>
 > struc2vec: Learning Node Representations from Structural Identity.<br>
@@ -58,6 +59,10 @@ The next *n* lines are as follows:
 	node_id dim1 dim2 ... dimd
 
 where dim1, ... , dimd is the *d*-dimensional representation learned by *struc2vec*.
+
+
+### Results after executing command
+``python src/main.py --input graph/karate-mirrored.edgelist --output emb/karate-mirrored.emb --OPT1 True --OPT2 True --OPT3 True --dimensions 2``
 
 
 ### Miscellaneous
